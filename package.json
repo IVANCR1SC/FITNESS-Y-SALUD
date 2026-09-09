@@ -1,0 +1,17 @@
+{
+  "name": "fitness-ivan",
+  "version": "7.0.0",
+  "description": "App Fitness y Salud · Iván CR",
+  "scripts": {
+    "preparar": "npm i && npx cap add android && npx cap sync",
+    "abrir": "npx cap open android",
+    "apk": "cd android && ./gradlew assembleDebug"
+  },
+  "dependencies": {
+    "@capacitor/core": "^6.1.2",
+    "@capacitor/android": "^6.1.2"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^6.1.2"
+  }
+}

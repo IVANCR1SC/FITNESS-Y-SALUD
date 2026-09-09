@@ -1,0 +1,11 @@
+{
+  "appId": "com.ivancr.fitness",
+  "appName": "Fitness Iván",
+  "webDir": "www",
+  "android": {
+    "allowMixedContent": true
+  },
+  "server": {
+    "androidScheme": "https"
+  }
+}

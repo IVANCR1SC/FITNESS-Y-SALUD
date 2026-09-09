@@ -1,0 +1,32 @@
+APP FITNESS Y SALUD · IVÁN CR — proyecto para generar el APK
+════════════════════════════════════════════════════════════
+
+Necesitas en tu PC:
+  · Node.js            https://nodejs.org
+  · Android Studio     https://developer.android.com/studio
+
+PASOS (en una terminal, dentro de esta carpeta)
+
+  1. npm run preparar
+       Descarga lo necesario y crea la carpeta android/
+
+  2. npm run apk
+       Genera el APK en:
+       android/app/build/outputs/apk/debug/app-debug.apk
+
+  3. Pasa ese archivo a tu móvil e instálalo.
+       Android pedirá permitir «orígenes desconocidos»: acéptalo.
+
+SI PREFIERES ANDROID STUDIO
+  npm run preparar
+  npm run abrir          → se abre el proyecto
+  Build → Build APK(s)
+
+ALTERNATIVA SIN INSTALAR NADA
+  Sube www/index.html a netlify.com/drop (arrastrar y soltar)
+  y mete la dirección resultante en pwabuilder.com,
+  que te devuelve el APK ya firmado.
+
+DATOS
+  La app guarda todo en el propio móvil. Antes de reinstalar,
+  usa «1 · Guardar copia» del menú ⋮ y consérvala.
